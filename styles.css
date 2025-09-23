@@ -137,4 +137,77 @@ footer {
   .btn {
     padding: 10px 20px;
   }
+/* Marketing Projects Section */
+.marketing-projects {
+  background: #f3e6ff;
+  padding: 50px 20px;
+  text-align: center;
+  color: #4b286d;
+  font-family: 'Quicksand', sans-serif;
 }
+
+.marketing-projects h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(180, 140, 230, 0.3);
+  padding: 25px;
+  max-width: 300px;
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-card h3 {
+  color: #8128ff;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.project-card p {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #5a4a85;
+}
+
+/* Enhance fonts and colors on hero and body */
+.hero h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  color: #ffd9ff;
+  text-shadow: 2px 2px 7px rgba(60, 0, 80, 0.8);
+}
+
+.hero p {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.3rem;
+  color: #f7cfff;
+  font-weight: 500;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+}
+
+/* Add subtle gradient to body background */
+body {
+  background: linear-gradient(135deg, #fefaff 0%, #f3e6ff 100%);
+  color: #444;
+}
+
+
